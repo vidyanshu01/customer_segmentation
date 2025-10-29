@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Segmentation App</title>
+</head>
+<body>
+    <h2>Upload your sales data (CSV) for customer segmentation</h2>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required>
+        <button type="submit">Segment Customers</button>
+    </form>
+</body>
+</html>
